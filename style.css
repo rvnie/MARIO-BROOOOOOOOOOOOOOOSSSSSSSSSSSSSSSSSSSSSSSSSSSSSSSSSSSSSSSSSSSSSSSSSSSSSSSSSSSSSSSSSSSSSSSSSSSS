@@ -28,5 +28,22 @@
     }
 
     .jump{ 
-        animt]
+        animation: jump 500ms ease-out;
+    } 
+
+    .clouds{position: absolute;
+    width: 550px;
+animation: clouds-animation 20s infinite linear;}
+
+@keyframes pipe-animation{
+}
+@keyframes jump{
+}
+@keyframes clouds-animation{
+    from{
+        right: -550px;
     }
+    to{
+        right: 100%;; 
+    }
+}
